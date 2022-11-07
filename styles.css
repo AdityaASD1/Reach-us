@@ -9,7 +9,7 @@
 
 body{
   background-image: url("Reach.png");
-  overflow-x: hidden;
+  overflow: hidden;
   margin: 0;
   height: 100vh;
   width: 100%;
@@ -167,7 +167,7 @@ body{
 }
 @media (max-width:2400px) {
   .main{
-    margin: 150px 400px  0 400px;
+    margin: 200px 400px  0 300px;
     transform: scale(1.38);
 
   }
@@ -206,7 +206,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 170px 100px  0 100px;
+    margin: 0px 100px  0 100px;
+    height: 100vh;
     transform: scale(1.48);
 
   }
@@ -216,8 +217,12 @@ body{
 }
 @media (max-width:650px) {
   .main{
-
-    margin: 123px 40px  0 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0px 40px  0 45px;
     transform: scale(1.28);
 
   }
@@ -230,8 +235,8 @@ body{
 }
 @media (max-width:550px) {
   .main{
-
-    margin: 107px 90px  0 90px;
+    height: 100vh;
+    margin: 0px 90px  0 90px;
     transform: scale(1.12);
 
   }
@@ -241,11 +246,13 @@ body{
 }
 @media (max-width:450px) {
   .main{
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 50px 10px  0 30px;
+    margin: 0px 10px  0 30px;
+    /* margin: 50px 10px  0 30px; */
     transform: scale(0.89);
 
   }
@@ -255,8 +262,9 @@ body{
 }
 @media (max-width:400px) {
   .main{
-
-    margin: 40px 10px  0 10px;
+    height: 100vh;
+    margin: 0px 10px  0 10px;
+    /* margin: 155px 10px  0 10px; */
     transform: scale(0.88);
 
   }
@@ -1387,4 +1395,4 @@ font-family:Proxima;
     .hamburger {
       display: block;
     }
-  }/Users/adityasantoshdeshmukh/Desktop/events/reach us/index.html
+  }
