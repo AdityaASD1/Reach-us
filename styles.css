@@ -160,6 +160,7 @@ body{
   border-radius: 0 0 2px 2px;
 }
 .rou_info p{
+  font-family: Helvetica_Medium;
   font-size: 20px;
   padding: 8px 4px;
   margin: 0;
