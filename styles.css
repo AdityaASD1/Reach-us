@@ -9,7 +9,7 @@
 
 body{
   background-image: url("Reach.png");
-  overflow: hidden;
+  overflow-x: hidden;
   margin: 0;
   height: 100vh;
   width: 100%;
