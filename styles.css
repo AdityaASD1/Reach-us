@@ -207,7 +207,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0px 100px  0 100px;
+    margin: 130px 100px  0 100px;
     height: 100vh;
     transform: scale(1.48);
 
@@ -223,7 +223,7 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 100vh;
-    margin: 0px 40px  0 45px;
+    margin: 80px 40px  0 45px;
     transform: scale(1.28);
 
   }
@@ -237,7 +237,7 @@ body{
 @media (max-width:550px) {
   .main{
     height: 100vh;
-    margin: 0px 90px  0 90px;
+    margin: 70px 90px  0 90px;
     transform: scale(1.12);
 
   }
@@ -252,7 +252,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 0px 10px  0 30px;
+    margin: 10px 10px  0 30px;
     /* margin: 50px 10px  0 30px; */
     transform: scale(0.89);
 
